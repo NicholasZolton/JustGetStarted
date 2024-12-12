@@ -18,6 +18,8 @@ If you are interested in learning to program, this project is for you.
 
 ## Installing
 
+First, [install Git](https://git-scm.com/downloads) (it's okay to use the defaults selected during the installation) so that you can [clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) this repository.
+
 > [!WARNING]
 > This project is made to be used with [devenv](https://devenv.sh/) to manage your development environment so that you can skip the installation steps. This requires you to install Nix and Devenv. This also requires either Unix or Linux.
 
@@ -55,3 +57,15 @@ python3 python/main.py
 This should print out `hello from python`.
 
 Congrats on getting started!
+
+## Next Steps
+
+Now that you have a working program, let's examine how we got here.
+
+First, I want to make it clear that this is a radically different way of setting up a project than what you would usually ecounter.
+
+In the real world, you would have to find all the tools, install the right versions, and figure out how to run the project.
+
+However, devenv makes it much easier with the power of Nix.
+
+If you want to add more supported languages, check out the `devenv.nix` file to see how python is added. Yes, it's that simple.
