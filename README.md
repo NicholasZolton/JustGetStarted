@@ -20,6 +20,8 @@ If you are interested in learning to program, this project is for you.
 
 First, [install Git](https://git-scm.com/downloads) (it's okay to use the defaults selected during the installation) so that you can [clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) this repository.
 
+Next, run `git clone https://github.com/NicholasZolton/JustGetStarted.git` to clone this repository.
+
 > [!WARNING]
 > This project is made to be used with [devenv](https://devenv.sh/) to manage your development environment so that you can skip the installation steps. This requires you to install Nix and Devenv. This also requires either Unix or Linux.
 
