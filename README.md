@@ -19,7 +19,7 @@ If you are interested in learning to program, this project is for you.
 ## Installing
 
 > [!WARNING]
-> This project is made to be used with [devenv](https://devenv.sh/) to manage your development environment so that you can skip the installation steps. This requires you to install Nix and Devenv.
+> This project is made to be used with [devenv](https://devenv.sh/) to manage your development environment so that you can skip the installation steps. This requires you to install Nix and Devenv. This also requires either Unix or Linux.
 
 We will be following the instructions from the [Devenv documentation](https://devenv.sh/getting-started/) to install everything.
 
